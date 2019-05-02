@@ -1,0 +1,30 @@
+#contenedor {
+    width: 400px;
+    min-height: 100px;
+    background: blue;
+}
+
+.flota1{
+    width: 300px;
+    height: 300px;
+    background: greenyellow;
+    float: left;
+}
+
+.flota2{
+    width: 100px;
+    height: 300px;
+    background: yellow;
+    float: right;
+}
+
+
+#contenedor > div {
+    opacity: 0.4;
+}
+
+
+.clear {
+   
+    clear: both;
+}
