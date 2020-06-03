@@ -1,0 +1,46 @@
+<html> </html> (genera un cuerpo que contiene) 
+---> <head> </head> (aqui van los encabezados y titulo de la pagina)//cosas que no se ven en la pagina
+---><body> </body> (aqui va todo lo que se ve en la pagina)
+algunas de las cosas que contiene el body son:
+* <h1>Titulo de la pagina web </h1> a nivel de CEO es usado en los buscadores, se indica el nombre de la pagina
+*<h2> al <h6> son diferentes encabezados en diferentes tamaños.
+<p> aqui van parrafos</p> aqui va el texto.
+
+otras etiquetas que podemos usar dentro del body:
+<br/> ----> usado para hacer un salto de linea
+<hr/> ----> usado para hacer una linea de separacion (con salto).
+<strong>Negrita </strong>  ---> lo que escribamos aqui estara en negrita
+<em> Texto en cursiva </em>
+<span> </span> --> es una etiqueta para resaltar y ponerle clases a una parte del texto, para luego con css
+cambiarle el estilo (maquetacion)
+<blockquote> --> el contenido en especie de cita "tabulacion especial espaciado especial"
+
+LISTAS
+
+<ol>Listas ordenadas 
+<li> elemento de la lista</li>
+<li> otro elemento de la lista </li>
+</ol>
+
+
+<ul>Lista desordenada </ul>
+
+
+<img src= "ruta de la imagen.jpg" alt "texto para describir la imagen o por si no carga la imagen" 
+title "al pasar el mouse por la imagen indica una descripcion"/> "para imagenes"
+
+
+
+
+<img src="imagenes/perrito1.jpg" alt="imagen de perro" title="es un perro bonito" width="255px" height="200px">
+
+
+
+
+<form> 
+<label>Nombre del siguiente input</label> ---> es un texto q sirve por ej para indicar que colocar en el siguiente input
+<input type"Text" name "nombre del cuadro" placeholder="Texto predeterminado"/> ----> es un cuadro donde se prodra ingresar datos
+//los input pueden tener placeholder "es un texto predetermiando que aparecera antes de completar el input"
+
+</form>   ---->etiqueta para crear un formulario
+
