@@ -44,3 +44,10 @@ title "al pasar el mouse por la imagen indica una descripcion"/> "para imagenes"
 
 </form>   ---->etiqueta para crear un formulario
 
+Enlaces
+<a href= "index.html" title= "inicio" target="_blank"> Inicio </a> <!en href ponemos la url 
+de la pagina a la que queremos redireccionar ej: "https://google.com"
+ y para paginas internas del proyecto ponemos el nombre del index
+ ej:"contenidos.html" el atributo target indica si queremos abrirlo en una nueva pestaña "_blank">
+
+
