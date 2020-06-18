@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+	<meta charset="utf-8">
+	<title>Ejercicio</title>
+
+	<script type="text/javascript" src="JavaScript/ejercicio_01.js"></script>
+
+	<style type="text/css">
+		body{background: #DEB887;}
+
+		.box{
+			width: 200px;
+			height: 250px;
+			float: left;
+			margin: 20px;
+			background: #FF7F50;
+		}
+
+		.dashed{
+			border: 3px dashed black;
+			padding: 5px;
+		}
+
+		
+	</style>
+
+</head>
+
+<body>
+	
+	<h1>Ejercicio DOM, Eventos y Funciones</h1>
+
+	<div class="box">
+	<p>
+		<!para que no me recarge la pagina podemos agregar el campo onsubmit = "return false">
+	<form action="" method="POST" id="formulario" onsubmit="return false;">
+		<h4>Formulario</h4>
+
+		<label for="nombre">Nombre</label>
+		<br/>
+		<input type="text" name="Nombre" id="nombre">
+		<br/>
+
+
+		<label for="apellido">Apellido</label>
+		<br/>
+		<input type="text" name="Apellido" id="apellido"/>
+		<br/>
+
+
+		<label for="edad">Edad</label>
+		<br/>
+		<input type="number" name="Edad" id="edad"/>
+		<br/>
+
+		<!usamos un input y no un button para usar el evento submit y no el onclick>
+		<br/>
+		<input type="submit" value="Enviar Formulario" name="submit" id="submit">
+		<br/>
+
+		<br/>
+		
+
+
+	</form>
+	</p>
+	</div>
+
+	<div class="box dashed">
+		<h3>Informacion del usuario</h3>
+		<hr>
+
+	</div>
+	
+
+</body>
+
+
+</html>

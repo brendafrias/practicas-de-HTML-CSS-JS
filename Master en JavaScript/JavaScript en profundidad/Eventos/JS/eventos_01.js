@@ -37,7 +37,7 @@ function cambiarColorMejorado(color){
 
 //Codigo mas limpio
 
-//Evento click
+
 function cambiarColor(){
 	var bg = boton.style.background;
 	if(bg == "green"){
@@ -48,9 +48,11 @@ function cambiarColor(){
 	
 }
 
+//Evento click
 var boton = document.querySelector("#boton");
 boton.addEventListener('click', function(){
 	cambiarColor();
+	//this.style.background = "blue";
 }); //añadimos un evento al boton en este caso click, de segundo parametro pondremos una funcion de callback
 //en este caso la funcion cambiarColor , pero tambien la podemos definir ahi.
 
