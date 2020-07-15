@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Juego de disparo</title>
+	<!--Script para cargar jquery version 3.5.1
+	-->
+	<script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+	<!--Script para cargar los eventos
+	-->
+	<script type="text/javascript" src="JS/juegoEventos.js"></script>
+
+
+	<style type="text/css">
+		#Fondo{
+			background-image: url('https://www.esportmaniacos.com/wp-content/uploads/2020/04/portada-guia-mapa-haven-valorant-1536x864.jpg');
+			width: 1300px;
+			height: 600px;
+		}
+
+		/*Mira del arma*/
+		#Mira{
+			width: 5px;
+			height: 5px;
+			position: absolute;
+			display: block;
+			background: red;
+			opacity: 0.9;
+			border-radius: 99px;
+			border: 2px solid black;
+		}
+
+		#Enemigo{
+			position: absolute;
+			margin-top: 230px;
+			margin-left: 420px;			
+			width: 70px;
+			height: 70px;
+			border: 2px solid;
+			opacity: 0.30;
+			border-radius: 99px;
+			background: yellow;
+		}
+
+		#Puntos{
+			border: 2px dashed purple;
+			padding: 10px;
+			width: 140px;
+			height: 50px;
+			margin-top: 10px;
+			background: purple;
+			opacity: 0.50;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1>Juego de disparos</h1>
+
+	<!--Fondo-->
+	<div id="Fondo">
+		
+		<!--Mira del arma-->
+		<div id="Mira"></div>
+
+		<!--Audio de diparo-->
+		<audio src="audio/disparo_1.mp3" id="Disparo"></audio>
+
+		<div id="Enemigo"></div>
+
+		<div id="Puntos">
+			
+		</div>
+	
+	</div>
+	
+
+</body>
+</html>

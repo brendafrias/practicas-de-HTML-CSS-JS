@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>JQuery Eventos</title>
+
+	<script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+
+	<script type="text/javascript" src="JS/eventos.js"></script>
+
+	<style type="text/css">
+		
+		#caja{
+			width: 250px;
+			height: 250px;
+			border: 2px solid;
+			background: yellow;
+			transition: 300ms all;
+		}
+
+/*Le cambiamos el color cuando el mouse esta en la caja, opcion1:;
+		#caja:hover{
+			background: red;
+			cursor: pointer;
+		}
+		
+*/
+	input{
+		padding: 10px;
+		width: 300px;
+		font-size: 20px;
+	}
+
+	#datos{
+		border: 4px dashed black;
+		padding: 10px;
+		width: 250px;
+		height: 50px;
+		margin-top: 10px;
+		display: none;
+	}
+
+	#follow{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		display: block;
+		background: yellow;
+		opacity: 0.3;
+		border-radius: 99px;
+		border: 2px solid black;
+	}
+	</style>
+
+	
+</head>
+<body>
+	<h1>JQuery Eventos</h1>
+
+	<div id="follow"></div>
+
+	<form>
+		<input type="text" id="nombre">
+	</form>
+	<div id="datos"></div>
+	<br>
+
+	<div id="caja">
+		Soy una caja
+	</div>
+
+	
+</body>
+</html>
