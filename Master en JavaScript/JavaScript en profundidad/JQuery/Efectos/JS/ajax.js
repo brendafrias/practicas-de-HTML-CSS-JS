@@ -24,12 +24,34 @@ $(document).ready(function(){
 		"name": $('input[name="name"]').val(),
 		"web": $('input[name="web"]').val()		
 	};
-	console.log(usuario);//vemos que se va a enviar
+
+
+	//console.log(usuario);//vemos que se va a enviar
+	/*
 	$.post($(this).attr("action"),usuario,function(response){
 		console.log(response);
 		}).done(function(){
 			alert("Usuario agregado correctamente");
 		});
+	*/
+		//OTRA FORMA DE HACER PETICIONES AJAX
+		$.ajax({
+			type: 'POST',
+			dataType: 'json',
+			url: $(this).attr("action"), //url a la que le haremos la peticion.
+			data: usuario, //parametros que voy a enviar, en este caso usuario.
+			beforeSend: function(){
+				console.log("Enviando usuario...");
+			}, //antes de que se envie hara una accion.
+			success: function(response){
+				console.log(response);
+			},
+			error: function(){
+				console.log("ha ocurrido un error...");
+			},
+			timeout: 2000
+		});
+
 		return false;//usado para que tampoco redirija
 	});
 });

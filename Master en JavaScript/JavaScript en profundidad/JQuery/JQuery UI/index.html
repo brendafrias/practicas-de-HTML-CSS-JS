@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery UI</title>
+
+	<script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="JS/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="JS/jquery-ui-1.12.1/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="JS/jquery-ui-1.12.1/jquery-ui.theme.css">
+
+	<script type="text/javascript" src="JS/jqueryUI.js"></script>
+
+	<script type="text/javascript" src="JS/jquery-ui-1.12.1/jquery-ui.min.js"></script> <!-- aqui cargamos JQuery UI
+-->
+	<style type="text/css">
+		.elemento{
+			width: 300px;
+			height: 200px;
+			border: 4px solid black;
+			background: lightgreen;
+			margin: 20px;
+			float: left;
+			font-size: 50px;
+
+
+		}
+
+		.lista-seleccionable{
+			width: 80%;
+			padding: 20px;
+			border: 3px solid #ccc;
+			list-style: none;
+			cursor: pointer;
+		}
+
+		ul .ui-selecting {background: blue;}
+		ul .ui-selected {background: red;}
+		
+		#elemento-movido{
+			width: 100px;
+			height: 100px;
+			border: 4px solid red;
+		}
+
+		#area{
+			width: 300px;
+			height: 300px;
+			border: 4px solid green;
+		}
+
+		.caja-efectos{
+			background: pink;
+			float: none;
+			display: none;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Utilizando JQuery UI</h1>
+
+	<button id="mostrar">Mostrar</button>
+	
+	<div class="caja-efectos elemento"></div>
+
+	<div id="elemento-movido"></div>
+	<div id="area"></div>
+
+	<ul class="lista-seleccionable">
+		<li>GTA 5</li>
+		<li>Need For Speed</li>
+		<li>Mortal Kombat</li>
+		<li>Valorant</li>
+	</ul>
+
+	<div class="elemento">
+		QUE TE AMO C:.
+	</div>
+
+	<div class="elemento">
+		TE QUIERO DECIR.
+	</div>
+
+	<div class="elemento">
+		AMOR TENGO UN SECRETITO.
+	</div>
+
+</body>
+</html>
