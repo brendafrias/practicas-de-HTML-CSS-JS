@@ -25,6 +25,7 @@ $(document).ready(function(){
 		}
 	});
 
+
 	//Efectos
 	$('#mostrar').click(function(){
 		//$('.caja-efectos').toggle("fade");
@@ -36,5 +37,17 @@ $(document).ready(function(){
 		//$('.caja-efectos').toggle("scale");
 		$('.caja-efectos').toggle("shake"); // tambien podemos pasarle como parametro la velosidad.
 	});
+
+	//PopUp, Dialog
+	$("#lanzar-popup").click(function(){
+		$("#popup").dialog();
+	});
+
+	//DatePicker
+	$("#calendario").datepicker();
+
+	//Tabs
+	$("#pestanas").tabs();
+	
 
 });
