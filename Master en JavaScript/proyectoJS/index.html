@@ -6,6 +6,21 @@
 
 	<!--Estilos CSS -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Slider pluggin de bxslider con jquery -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  	<!-- Moment JS-->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
+
+
+  	<!-- Scripts -->
+  	<script type="text/javascript" src="js/main.js"></script>
+
 </head>
 	<body>
 		<section id="global">
@@ -28,19 +43,18 @@
 
 			<!--Slider -->
 			<div id="slider">
+				<div class="bxslider">
+ 					<div><img src="img/hojas.jpg" title="Hojas"></div>
+  					<div><img src="img/rojo.jpg" title="Rojo"></div>
+  					<div><img src="img/cielo.jpg" title="Nubes"></div>
+				</div>
 				
 			</div>
 
 			<!--Contenido -->
 			<section id="content">
 				<div id="posts">
-					<article class="post">
-						<h2>Titulo del articulo</h2>
-						<span class="date">Fecha de publicacion</span>
-						<p>parrafo, Qué es Lorem Ipsum?
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
-					<a href="" class="button-more">Leer mas</a>
-					</article>
+					<!--Cargan post desde json-->
 				</div>
 				<aside id= "sidebar">
 					<div id="about">
