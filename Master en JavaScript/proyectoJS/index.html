@@ -7,6 +7,8 @@
 	<!--Estilos CSS -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
 	<!-- Slider pluggin de bxslider con jquery -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	
@@ -23,6 +25,11 @@
 
 </head>
 	<body>
+		<div id="selector-theme">
+			<div id="to-green"></div>
+			<div id="to-red"></div>
+			<div id="to-blue"></div>
+		</div>
 		<section id="global">
 
 			<!--Cabezera -->
@@ -33,9 +40,9 @@
 				<div class="clearfix"></div>
 				<nav id="menu">
 					<ul>
-						<li><a href="">Inicio</a></li>
+						<li><a href="index.html">Inicio</a></li>
 						<li><a href="">Reloj</a></li>
-						<li><a href="">Sobre mi</a></li>
+						<li><a href="about.html">Sobre mi</a></li>
 						<li><a href="">Contacto</a></li>
 					</ul>
 				</nav>
@@ -68,13 +75,13 @@
 
 						<form>
 							<label for="name">Nombre</label>
-							<input type="text" name="name">
+							<input type="text" name="name" id="form_name">
 
 							<label for="email">Email</label>
-							<input type="text" name="name">
+							<input type="text" name="email" id="form_email">
 
 							<label for="password">Constraseña</label>
-							<input type="password" name="name">
+							<input type="password" name="password">
 
 							<input type="submit" value="Entrar">
 						</form>
@@ -85,6 +92,8 @@
 			</section>
 		</section>
 
-		<footer>Pie de la pagina</footer>
+		<footer>
+			<a href="#" class="subir">Ir arriba</a>
+		</footer>
 	</body>
 </html>
