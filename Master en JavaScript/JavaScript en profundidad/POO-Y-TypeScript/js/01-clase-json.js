@@ -4,7 +4,7 @@ window.addEventListener('load',function(){
 		color:"rojo",
 		modelo:"bmx",
 		frenos:"disco",
-		velocidadMax:"60km"
+		velocidadMax:"60km",
 		cambiaColor: function(nuevo_color){
 			this.color = nuevo_color;
 			console.log(this);
@@ -13,3 +13,4 @@ window.addEventListener('load',function(){
 	bicicleta.cambiaColor("azul");
 	console.log(bicicleta);
 });
+//usamos json para objetos
